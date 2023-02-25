@@ -48,6 +48,14 @@
     display: flex;
     justify-content: center;
   }
+  .footer .container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .footer span {
+    text-align: center;
+  }
 }
 @media (max-width: 576px) {
   .grid_item img {
